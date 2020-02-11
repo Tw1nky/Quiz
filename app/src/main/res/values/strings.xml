@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="quiz">Quiz</string>
+    <string name="start">Начать</string>
+    <string name="exit">Выход</string>
+    <string name="time">Time</string>
+    <string name="perfect">Превосходно!</string>
+    <string name="again">Заново</string>
+</resources>
