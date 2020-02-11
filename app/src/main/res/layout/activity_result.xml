@@ -14,14 +14,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="68dp"
         android:background="@drawable/btn"
+        android:paddingBottom="10dp"
         android:text="@string/again"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        android:textSize="24sp"
-        android:textColor="@color/colorPrimary"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
         android:id="@+id/btnExit"
@@ -29,13 +29,14 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="@drawable/btn"
+        android:paddingBottom="10dp"
         android:text="@string/exit"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/again"
-        android:textSize="24sp"
-        android:textColor="@color/colorPrimary"/>
+        app:layout_constraintTop_toBottomOf="@+id/again" />
 
     <TextView
         android:id="@+id/textView3"
